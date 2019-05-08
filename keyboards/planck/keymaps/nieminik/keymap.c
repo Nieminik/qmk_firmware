@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_BSPC,
     KC_ESC,  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_SLSH,
     KC_LSFT, KC_SCLN, KC_Q,    KC_J,    KC_K,    KC_X,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    RSFT_T(KC_ENT) ,
-    KC_LCTL, KC_LEAD, KC_LGUI, KC_LALT, LOWER,   KC_SPC,  KC_SPC,  RAISE,   RALT_T(KC_LEFT), KC_DOWN, KC_UP,   RCTL_T(KC_RIGHT)
+    KC_LCTL, KC_LEAD, KC_LGUI, KC_LALT, LOWER,   KC_SPC,  RALT_T(KC_SPC),  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   RCTL_T(KC_RIGHT)
 ),
 
 /* Lower
@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * |      | Reset|      |      |      |      |      |      |      |      |      |  Del |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |      |AGnorm|AGswap|Aud on|Audoff|      | M_D  |      |      |      |      |      |
+ * |AGnorm|AGswap|MU_MOD|Aud on|Audoff|      | M_D  |      |      |      |      |      |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |Voice-|Voice+|Mus on|Musoff|MIDIon|MIDIof|      |      |      |      |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
